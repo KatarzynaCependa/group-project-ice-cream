@@ -7,7 +7,7 @@
     <meta name="description" content="First HTML class" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <meta name="author" content="Grupa Projektowa 12 z FSON 10" />
-    <title>Projekt grupowy_FSON 10 Grupa 12</title>
+    <title>group-project-ice-cream</title>
     <link rel="icon" type="image/x-icon" href="/src/images/logo.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,15 +21,9 @@
     />
     <link rel="stylesheet" href="./sass/main.scss" />
   </head>
-
   <body>
-
-   <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
-
-   <include src="./partials/hero_header.html"></include>
-
-   
-  <main>
+    <include src="./partials/hero_header.html"></include>
+    <main>
       <include src="./partials/products.html"></include>
       <include src="./partials/about.html"></include>
       <include src="./partials/advantages.html"></include>
@@ -37,12 +31,9 @@
       <include src="./partials/reviews.html"></include>
       <include src="./partials/contacts.html"></include>
     </main>
-
     <footer>
       <include src="./partials/footer.html"></include>
     </footer>
-
-    <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony SAAS plik. -->
     <script src="./index.js" type="module"></script>
     <script
       defer
